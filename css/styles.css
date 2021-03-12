@@ -128,6 +128,7 @@ img {
 .social-list-icon {
   width: 20px;
   height: 20px;
+  fill: var(--color-icon-clients);
 }
 /* ========= END COMPONENTS =========*/
 
@@ -497,9 +498,23 @@ img {
 /* ========= END REGULAR CLIENTS =========*/
 
 /* ========= CONTACT INFORMATION =========*/
+.contact-information {
+  display: flex;
+  align-items: center;
+}
+
+.contact-address-container {
+  margin-right: 70px;
+}
+
 .link.logo.logo-white {
   display: block;
   margin-bottom: 20px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-link-address {
@@ -532,6 +547,53 @@ img {
   background-color: var(--background-section);
 }
 
+.contact-info-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.social-links-footer {
+  min-width: 206px;
+}
+
+.social-title {
+  display: block;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+.social-links-footer-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-links-footer-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--white-color);
+}
+
+.social-links-footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-links-footer-link:hover,
+.social-links-footer-link:focus {
+  background-color: var(--accent-color);
+}
 /* ========= END CONTACT INFORMATION =========*/
 
 /* ========= FILTER =========*/
