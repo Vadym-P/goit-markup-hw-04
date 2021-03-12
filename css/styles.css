@@ -196,8 +196,8 @@ img {
   letter-spacing: 0.02em;
   padding-top: var(--link-padding-tp);
   padding-bottom: var(--link-padding-bt);
-
   color: var(--content-description);
+  fill: var(--content-description);
 }
 
 .contacts-icon-mail {
@@ -519,9 +519,9 @@ img {
   align-items: baseline;
 }
 
-.social-links-footer {
+/* .social-links-footer {
   min-width: 206px;
-}
+} */
 
 .social-title {
   display: block;
@@ -539,6 +539,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.social-links-footer-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-links-footer-icon {
