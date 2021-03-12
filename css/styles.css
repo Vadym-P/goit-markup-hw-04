@@ -14,7 +14,8 @@
   --filters-btn-pd: 6px 22px;
   --section-pt: 94px;
   --section-pb: 94px;
-  --link-padding: 8px;
+  --link-padding-tp: 25px;
+  --link-padding-bt: 24px;
   --color-icon-clients: #afb1b8;
 }
 
@@ -134,8 +135,6 @@ img {
 
 /* ========= HEADER =========*/
 .main-header {
-  padding-top: 25px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -152,6 +151,11 @@ img {
 .navigation-list {
   display: flex;
   align-items: center;
+}
+
+.navigation-item {
+  padding-top: var(--link-padding-tp);
+  padding-bottom: var(--link-padding-bt);
 }
 
 .navigation-item:not(:last-child) {
@@ -173,9 +177,8 @@ img {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
-  padding-top: var(--link-padding);
-  padding-bottom: var(--link-padding);
-
+  padding-top: var(--link-padding-tp);
+  padding-bottom: var(--link-padding-bt);
   color: var(--main-color);
 }
 
@@ -191,8 +194,8 @@ img {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
-  padding-top: var(--link-padding);
-  padding-bottom: var(--link-padding);
+  padding-top: var(--link-padding-tp);
+  padding-bottom: var(--link-padding-bt);
 
   color: var(--content-description);
 }
