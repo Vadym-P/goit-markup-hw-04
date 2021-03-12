@@ -439,7 +439,16 @@ img {
   margin-top: 30px;
 }
 
-.regular-clients-container {
+.regular-clients-icon {
+  fill: var(--color-icon-clients);
+}
+
+.regular-clients-link:hover,
+.regular-clients-link:focus {
+  border-color: var(--accent-color);
+}
+
+.regular-clients-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -448,47 +457,6 @@ img {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-}
-
-.regular-clients-icon1 {
-  width: 44px;
-  height: 49px;
-  fill: var(--color-icon-clients);
-}
-
-.regular-clients-icon2 {
-  width: 40px;
-  height: 52px;
-  fill: var(--color-icon-clients);
-}
-
-.regular-clients-icon3 {
-  width: 41px;
-  height: 42px;
-  fill: var(--color-icon-clients);
-}
-
-.regular-clients-icon4 {
-  width: 79px;
-  height: 42px;
-  fill: var(--color-icon-clients);
-}
-
-.regular-clients-icon5 {
-  width: 59px;
-  height: 47px;
-  fill: var(--color-icon-clients);
-}
-
-.regular-clients-icon6 {
-  width: 88px;
-  height: 45px;
-  fill: var(--color-icon-clients);
-}
-
-.regular-clients-container:hover,
-.regular-clients-container:focus {
-  border-color: var(--accent-color);
 }
 
 .regular-clients-link:hover .regular-clients-icon,
